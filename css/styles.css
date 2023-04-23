@@ -1,0 +1,182 @@
+/* ESTILOS GENERALES */
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #093349;
+}
+
+/* SECCION NAV */
+#nav{
+    background-color: #BCDFF2!important;
+}
+
+/* SECCION FOOTER */
+footer{
+    background-color: #98C2D7;
+}
+footer a{
+    color: #98C2D7;
+    margin:7vw;
+}
+
+/* PAGINA HOME - SECCION MAIN */
+#main{
+    width: 100%;
+    height: 50vh;
+    background: url('../img/main-background3.jpg') no-repeat center / cover;
+}
+.container-main{
+    width: 75%;
+    height: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-main .info h1{
+    -webkit-text-stroke: 1px #BCDFF2;
+    color: #093349;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.container-main .info h2{
+    color: #BCDFF2;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* PAGINA HOME - SECCION ABOUT */
+.container-about{
+    width: 100%;
+    height: 50vh;
+    max-width: auto;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #98C2D7;
+}
+.container-about .info-about h2{
+    color: #00405A;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color:#00405A!important;
+    border-color: #00405A!important;
+    color: #98C2D7!important;
+}
+.btn-primary a{
+    text-transform:lowercase;
+    text-decoration:none;
+}
+.btn-primary:hover{
+    background-color:#98C2D7!important;
+    color: #00405A!important;
+} 
+.div-btn-primary a:hover{
+    background-color:red!important;
+    color: #00405A;
+} 
+
+/* PAGINA HOME - SECCION INTERACTIVE */
+.container-interactive{
+    width: 100%;
+    height: 15vw;
+    max-width: auto;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-interactive .info-interactive h2{
+    color: #98C2D7;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.container-interactive .info-interactive p{
+    color: #98C2D7;
+}
+.container-interactive .info-interactive a:hover{
+    background-color: #98C2D7;
+    color: #00405A;
+}
+
+/* PAGINA CONTACT */
+form{
+    background: url('../img/main-background.jpg') no-repeat center / cover;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+form h2{
+    color: #BCDFF2;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.row{
+    margin: 20px;
+    padding: 20px;
+}
+.row input{
+    background-color: rgb(119, 169, 190);
+}
+
+/* PAGINA ABOUT */
+.about{
+    background: url('../img/main-background.jpg') no-repeat center / cover;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    color: #BCDFF2;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.about h2{
+    color: #5fadd7;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* PAGINA RESOURCES */
+.resources{
+    background: url('../img/main-background.jpg') no-repeat center / cover;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.resources h1{
+    color: #BCDFF2;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.resources h2{
+    color: #5fadd7;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* PAGINA INTERACTIVE - SECCION AUDIO */
+.audio{
+    background: url('../img/agua.jpeg') no-repeat center / cover;
+    padding: 0vh 30vh 0vh 30vh;
+    align-items: center;
+    justify-content: center;
+}
+.audio iframe{
+    width: 100vh;
+    padding: 25px;
+} 
