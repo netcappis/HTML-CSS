@@ -13718,10 +13718,10 @@ progress {
   background-color: #BCDFF2 !important;
   color: #5fadd7 !important;
 }
-
-.card-img-top {
-  width: fit-content;
-  /* height: 50px; */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
 }
 
 .card-title {
@@ -13806,7 +13806,7 @@ footer a {
 /* PAGINA HOME - SECCION INTERACTIVE */
 .container-interactive {
   width: 100%;
-  height: 15vw;
+  height: 50vh;
   max-width: auto;
   margin: 0px 0px 15px 0px;
   padding: 15px;
@@ -13838,6 +13838,16 @@ footer a {
   width: 100vh;
   padding: 25px;
 }
+@media (max-width: 768px) {
+  .audio iframe {
+    width: 40vh;
+  }
+}
+@media (max-width: 768px) {
+  .audio {
+    padding: 0;
+  }
+}
 
 /* PAGINA CONTACT */
 form {
@@ -13851,6 +13861,11 @@ form h2, form .h2 {
   color: #BCDFF2;
   font-size: 25px;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  form {
+    padding: 50px;
+  }
 }
 
 /* PAGINA ABOUT */
