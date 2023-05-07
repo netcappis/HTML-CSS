@@ -1,0 +1,234 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+/*VARIABLES*/
+$backgroung-img: no-repeat center / cover;
+
+.row {
+    margin: 20px;
+    padding: 20px;
+    input {
+        background-color: rgb(119, 169, 190);
+    }
+}
+
+.btn-primary {
+    background-color:#00405A!important;
+    border-color: #00405A!important;
+    color: #98C2D7!important;
+    a {
+        text-transform:lowercase;
+        text-decoration:none;
+        &:hover {
+            color: #00405A;
+        }
+    }
+    &:hover {
+        background-color:#98C2D7!important;
+        color: #00405A!important;
+    }
+}
+
+.card {
+    background-color: #BCDFF2!important;
+    color: #5fadd7!important;
+}
+
+.card-img-top {
+    width: fit-content;
+    /* height: 50px; */
+}
+
+.card-title {
+    color: #00405A!important;
+}
+
+.card-text span {
+    color: #00405A;
+}
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #093349;
+}
+
+#nav {
+    background-color: #BCDFF2!important;
+}
+
+footer {
+    background-color: #98C2D7;
+    a {
+        color: #98C2D7;
+        margin:7vw;
+    }
+}
+
+/* PAGINA HOME - SECCION MAIN */
+.main {
+    width: 100%;
+    height: 50vh;
+    background: url('../img/main-background3.jpg') $backgroung-img;
+}
+.container-main {
+    width: 75%;
+    height: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .info { 
+        text-transform: uppercase;     
+        h1 {
+           -webkit-text-stroke: 1px #BCDFF2;
+            color: #093349;
+            font-size: 50px;
+        }
+        h2 {
+            color: #BCDFF2;
+            font-size: 25px;
+        }
+    }
+}
+
+/* PAGINA HOME - SECCION ABOUT */
+.container-about {
+    width: 100%;
+    height: 50vh;
+    max-width: auto;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #98C2D7;
+    .info-about {
+        h2 {
+            color: #00405A;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+    } 
+}
+
+/* PAGINA HOME - SECCION INTERACTIVE */
+.container-interactive {
+    width: 100%;
+    height: 15vw;
+    max-width: auto;
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .info-interactive {
+        p {
+            color: #98C2D7;
+        }
+        a {
+            &:hover {
+                background-color: #98C2D7;
+                color: #00405A;
+            }
+        }
+    } 
+}
+
+/* PAGINA INTERACTIVE - SECCION AUDIO */
+.audio {
+    background: url('../img/agua.jpeg') $backgroung-img;
+    padding: 0vh 30vh 0vh 30vh;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        color: #98C2D7;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    iframe {
+        width: 100vh;
+        padding: 25px;
+    } 
+}
+
+/* PAGINA CONTACT */
+form {
+    background: url('../img/main-background.jpg') $backgroung-img;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        color: #BCDFF2;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+}
+
+/* PAGINA ABOUT */
+.about {
+    background: url('../img/main-background.jpg') $backgroung-img;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color: #BCDFF2;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #5FADD7;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+
+/* PAGINA RESOURCES */
+.resources {
+    background: url('../img/main-background.jpg') $backgroung-img;
+    height: 120vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color: #BCDFF2;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #5fadd7;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+
+
+
