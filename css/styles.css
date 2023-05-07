@@ -13715,12 +13715,15 @@ progress {
 }
 
 .card {
+  width: 20rem;
   background-color: #BCDFF2 !important;
   color: #5fadd7 !important;
 }
 @media (max-width: 768px) {
   .card {
     flex-direction: column;
+    width: 10rem;
+    margin: 0.5vh;
   }
 }
 
@@ -13730,6 +13733,11 @@ progress {
 
 .card-text span {
   color: #00405A;
+}
+@media (max-width: 768px) {
+  .card-text {
+    display: none !important;
+  }
 }
 
 * {
@@ -13904,6 +13912,11 @@ form h2, form .h2 {
   color: #5fadd7;
   font-size: 15px;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .resources {
+    height: 150vh;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
